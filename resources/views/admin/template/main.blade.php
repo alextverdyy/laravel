@@ -9,7 +9,7 @@
 </head>
 <body>
     @include('admin.template.partials.nav')
-    <section>
+    <section class="container">
         @yield('content')
     </section>
     <script type="text/javascript" src="{{asset('plugins/jquery/jquery.js')}}"></script>
