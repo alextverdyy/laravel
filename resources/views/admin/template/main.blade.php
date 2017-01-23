@@ -8,8 +8,12 @@
     <title>@yield('title', 'Default') | Panel de administracion</title>
 </head>
 <body>
+    @include('admin.template.partials.nav')
     <section>
         @yield('content')
     </section>
+    <script type="text/javascript" src="{{asset('plugins/jquery/jquery.js')}}"></script>
+    <script type="text/javascript" src="{{asset('plugins/bootstrap/js/bootstrap.js')}}"></script>
+
 </body>
 </html>
